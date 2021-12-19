@@ -199,6 +199,12 @@
   transition: background 450ms ease-in;
   -webkit-appearance: none;
 }
+.range-line--white {
+  background-color: #fff;
+}
+.range-line--blue {
+  background-color: #0000ff;
+}
 .range-line::-webkit-slider-thumb {
   width: 20px;
   height: 20px;

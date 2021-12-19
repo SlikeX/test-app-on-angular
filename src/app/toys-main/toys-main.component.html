@@ -13,7 +13,10 @@
         </div>
         <div class="controll__color">
           Цвет:
-          <div class="color-type-1 color"></div>
+          <div
+            (click)="changeColor(toyColorEnum.White)"
+            class="color-type-1 color"
+          ></div>
           <div class="color-type-2 color"></div>
           <div class="color-type-3 color"></div>
           <div class="color-type-4 color"></div>
@@ -44,6 +47,10 @@
         <div class="controll__by-range__range-group">
           <div class="range-min" id="count-mix">1</div>
           <input
+            [(ngModel)]="inputValue"
+            [ngClass]="{
+              'range-line--blue': true
+            }"
             type="range"
             name="count"
             id="count"
@@ -52,7 +59,7 @@
             step="1"
             class="range-line"
           />
-          <div class="range-max" id="count-max">12</div>
+          <div class="range-max" id="count-max">{{ inputValue }}</div>
         </div>
         <div class="controll__subtitle">Год приобретения:</div>
         <div class="controll__by-range__range-group">
@@ -81,4 +88,5 @@
       </div>
     </div>
   </div>
+  <ng-content></ng-content>
 </main>
