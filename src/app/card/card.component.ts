@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit ,OnChanges } from '@angular/core';
 import { ToysService } from '../toys/toys.service';
 import { Card } from '../models/Card';
 
@@ -16,7 +16,10 @@ export class CardComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.toysList = this.toysService.getAll()
+    this.toysList = this.toysService.getToysList();
+    this.toysService.filterToysList$.subscribe(()=> {
+      this.toysList = this.toysService.getToysList();
+    })
   }
 
 }

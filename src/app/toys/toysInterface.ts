@@ -6,7 +6,7 @@ export interface IToysFilterData {
   amount: number;
   purchaseYear: number;
   shape: Record<ToyShape, boolean>;
-  color: Record<ToyColor, boolean>;
+  color: Record<string, boolean>;
   size: Record<ToySize, boolean>
   onlyFavourites: boolean;
 }
@@ -19,13 +19,13 @@ export enum ToyShape {
   Snowflake = 'snowflake'
 }
 
-export enum ToyColor {
-  White = 'white',
-  Yellow = 'yellow',
-  Red = 'red',
-  Blue = 'blue',
-  Green = 'green'
-}
+export type ToyColor = 'white' | 'yellow' | 'red' | 'blue' | 'green';
+
+  // White = 'white',
+  // Yellow = 'yellow',
+  // Red = 'red',
+  // Blue = 'blue',
+  // Green = 'green'
 
 export enum ToySize {
   Big = 'big',

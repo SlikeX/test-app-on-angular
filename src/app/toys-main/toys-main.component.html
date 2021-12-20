@@ -5,28 +5,49 @@
         <div class="controll__title">фильтры по значению</div>
         <div class="controll__shape">
           Форма:
-          <div class="shape-type-1 shape"></div>
-          <div class="shape-type-2 shape"></div>
-          <div class="shape-type-3 shape"></div>
-          <div class="shape-type-4 shape"></div>
-          <div class="shape-type-5 shape"></div>
+          <div
+            (click)="changeShape(toyShapeEnum.Ball)"
+            class="shape-type-1 shape"
+          ></div>
+          <div
+            (click)="changeShape(toyShapeEnum.Figure)"
+            class="shape-type-2 shape"
+          ></div>
+          <div
+            (click)="changeShape(toyShapeEnum.Bell)"
+            class="shape-type-3 shape"
+          ></div>
+          <div
+            (click)="changeShape(toyShapeEnum.Cone)"
+            class="shape-type-4 shape"
+          ></div>
+          <div
+            (click)="changeShape(toyShapeEnum.Snowflake)"
+            class="shape-type-5 shape"
+          ></div>
         </div>
         <div class="controll__color">
           Цвет:
-          <div
-            (click)="changeColor(toyColorEnum.White)"
-            class="color-type-1 color"
-          ></div>
-          <div class="color-type-2 color"></div>
-          <div class="color-type-3 color"></div>
-          <div class="color-type-4 color"></div>
-          <div class="color-type-5 color"></div>
+          <div (click)="changeColor('white')" class="color-type-1 color"></div>
+          <div (click)="changeColor('yellow')" class="color-type-2 color"></div>
+          <div (click)="changeColor('red')" class="color-type-3 color"></div>
+          <div (click)="changeColor('blue')" class="color-type-4 color"></div>
+          <div (click)="changeColor('green')" class="color-type-5 color"></div>
         </div>
         <div class="controll__size">
           Размер:
-          <div class="size-type-1 size"></div>
-          <div class="size-type-2 size"></div>
-          <div class="size-type-3 size"></div>
+          <div
+            (click)="changeSize(toySizeEnum.Big)"
+            class="size-type-1 size"
+          ></div>
+          <div
+            (click)="changeSize(toySizeEnum.Medium)"
+            class="size-type-2 size"
+          ></div>
+          <div
+            (click)="changeSize(toySizeEnum.Small)"
+            class="size-type-3 size"
+          ></div>
         </div>
         <div class="controll__favourite">
           Только любимые:
