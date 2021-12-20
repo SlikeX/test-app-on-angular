@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ToysService } from '../toys/toys.service';
 import { IToysFilterData, ToyColor } from '../toys/toysInterface';
+import { Card } from '../models/Card';
 
 @Component({
   selector: 'app-toys-main',
@@ -10,7 +11,7 @@ import { IToysFilterData, ToyColor } from '../toys/toysInterface';
 export class ToysMainComponent implements OnInit {
 
   public inputValue = 0;
-  public toysList = [];
+  public toysList: Card[] = [];
   public toyColorEnum = ToyColor;
 
 
@@ -19,7 +20,7 @@ export class ToysMainComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.toysList = this.toysService.getToysList();
+    this.toysList = this.toysService.getAll();
   }
 
   public changeColor(color: ToyColor) {

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ToysService } from '../toys/toys.service';
+import { Card } from '../models/Card';
 
 @Component({
   selector: 'app-card',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardComponent implements OnInit {
 
-  constructor() { }
+  public toysList: Card[] = [];
+
+  constructor(
+    private toysService: ToysService
+  ) { }
 
   ngOnInit(): void {
+    this.toysList = this.toysService.getAll()
   }
 
 }
