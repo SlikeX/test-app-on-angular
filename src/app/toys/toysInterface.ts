@@ -5,30 +5,12 @@ export interface IToy {
 export interface IToysFilterData {
   amount: number;
   purchaseYear: number;
-  shape: Record<ToyShape, boolean>;
+  shape: Record<string, boolean>;
   color: Record<string, boolean>;
-  size: Record<ToySize, boolean>
+  size: Record<string, boolean>
   onlyFavourites: boolean;
 }
 
-export enum ToyShape {
-  Ball = 'ball',
-  Figure = 'figure',
-  Bell = 'bell',
-  Cone = 'cone',
-  Snowflake = 'snowflake'
-}
-
+export type ToyShape = 'ball'| 'figure' | 'bell' | 'cone' | 'snowflake';
 export type ToyColor = 'white' | 'yellow' | 'red' | 'blue' | 'green';
-
-  // White = 'white',
-  // Yellow = 'yellow',
-  // Red = 'red',
-  // Blue = 'blue',
-  // Green = 'green'
-
-export enum ToySize {
-  Big = 'big',
-  Medium = 'medium',
-  Small = 'small'
-}
+export type ToySize ='big'| 'medium'| 'small';

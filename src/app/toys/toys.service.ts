@@ -14,9 +14,9 @@ export class ToysService {
       name: 'Большой шар с рисунком',
       count: 2,
       year: 1960,
-      shape: 'шар',
+      shape: 'ball',
       color: 'yellow',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/1.png'
     },
@@ -25,9 +25,9 @@ export class ToysService {
       name: 'Зелёный шар с цветами',
       count: 5,
       year: 2000,
-      shape: 'шар',
+      shape: 'ball',
       color: 'green',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/2.png'
     },
@@ -36,9 +36,9 @@ export class ToysService {
       name: 'Красный матовый шар',
       count: 3,
       year: 1990,
-      shape: 'шар',
+      shape: 'ball',
       color: 'red',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/3.png'
     },
@@ -47,9 +47,9 @@ export class ToysService {
       name: 'Сосулька красная',
       count: 2,
       year: 1980,
-      shape: 'фигурка',
+      shape: 'figure',
       color: 'red',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/4.png'
     },
@@ -58,9 +58,9 @@ export class ToysService {
       name: 'Красный виноград',
       count: 4,
       year: 1980,
-      shape: 'фигурка',
+      shape: 'figure',
       color: 'red',
-      size: 'средний',
+      size: 'medium',
       favorite: true,
       imgUrl: 'assets/toys/5.png'
     },
@@ -69,9 +69,9 @@ export class ToysService {
       name: 'Красный шар с рисунком',
       count: 6,
       year: 2010,
-      shape: 'шар',
+      shape: 'ball',
       color: 'red',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/6.png'
     },
@@ -80,9 +80,9 @@ export class ToysService {
       name: 'Молочно-белый шар',
       count: 12,
       year: 1960,
-      shape: 'шар',
+      shape: 'ball',
       color: 'white',
-      size: 'средний',
+      size: 'medium',
       favorite: true,
       imgUrl: 'assets/toys/7.png'
     },
@@ -91,9 +91,9 @@ export class ToysService {
       name: 'Красный шар',
       count: 10,
       year: 2010,
-      shape: 'шар',
+      shape: 'ball',
       color: 'red',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/8.png'
     },
@@ -102,9 +102,9 @@ export class ToysService {
       name: 'Колокольчик старинный',
       count: 2,
       year: 1950,
-      shape: 'колокольчик',
+      shape: 'bell',
       color: 'white',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/9.png'
     },
@@ -113,9 +113,9 @@ export class ToysService {
       name: 'Белый шар ретро',
       count: 7,
       year: 1960,
-      shape: 'шар',
+      shape: 'ball',
       color: 'white',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/10.png'
     },
@@ -124,9 +124,9 @@ export class ToysService {
       name: 'Шишка еловая белая',
       count: 11,
       year: 1960,
-      shape: 'шишка',
+      shape: 'cone',
       color: 'white',
-      size: 'малый',
+      size: 'small',
       favorite: false,
       imgUrl: 'assets/toys/11.png'
     },
@@ -135,9 +135,9 @@ export class ToysService {
       name: 'Белый шар с цветами',
       count: 5,
       year: 1980,
-      shape: 'шар',
+      shape: 'ball',
       color: 'white',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/12.png'
     },
@@ -146,9 +146,9 @@ export class ToysService {
       name: 'Шар расписной Река',
       count: 3,
       year: 1970,
-      shape: 'шар',
+      shape: 'ball',
       color: 'blue',
-      size: 'большой',
+      size: 'big',
       favorite: true,
       imgUrl: 'assets/toys/13.png'
     },
@@ -157,9 +157,9 @@ export class ToysService {
       name: 'Шар расписной Деревня',
       count: 4,
       year: 1970,
-      shape: 'шар',
+      shape: 'ball',
       color: 'blue',
-      size: 'большой',
+      size: 'big',
       favorite: true,
       imgUrl: 'assets/toys/14.png'
     },
@@ -168,9 +168,9 @@ export class ToysService {
       name: 'Колокольчик расписной',
       count: 3,
       year: 1970,
-      shape: 'колокольчик',
+      shape: 'bell',
       color: 'blue',
-      size: 'средний',
+      size: 'medium',
       favorite: false,
       imgUrl: 'assets/toys/15.png'
     },
@@ -179,9 +179,9 @@ export class ToysService {
       name: 'Шишка расписная Пейзаж',
       count: 3,
       year: 1970,
-      shape: 'шишка',
+      shape: 'cone',
       color: 'blue',
-      size: 'средний',
+      size: 'medium',
       favorite: true,
       imgUrl: 'assets/toys/16.png'
     },
@@ -190,9 +190,9 @@ export class ToysService {
       name: 'Шишка расписная',
       count: 7,
       year: 1970,
-      shape: 'шишка',
+      shape: 'cone',
       color: 'red',
-      size: 'средний',
+      size: 'medium',
       favorite: false,
       imgUrl: 'assets/toys/17.png'
     },
@@ -201,9 +201,9 @@ export class ToysService {
       name: 'Желтый шар с бантом',
       count: 2,
       year: 2010,
-      shape: 'шар',
+      shape: 'ball',
       color: 'yellow',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/18.png'
     },
@@ -212,9 +212,9 @@ export class ToysService {
       name: 'Желтый шар с паетками',
       count: 12,
       year: 1980,
-      shape: 'шар',
+      shape: 'ball',
       color: 'yellow',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/19.png'
     },
@@ -223,9 +223,9 @@ export class ToysService {
       name: 'Красный шар с бантом',
       count: 8,
       year: 1950,
-      shape: 'шар',
+      shape: 'ball',
       color: 'red',
-      size: 'средний',
+      size: 'medium',
       favorite: true,
       imgUrl: 'assets/toys/20.png'
     },
@@ -234,9 +234,9 @@ export class ToysService {
       name: 'Красный шар с звёздами',
       count: 4,
       year: 1970,
-      shape: 'шар',
+      shape: 'ball',
       color: 'red',
-      size: 'большой',
+      size: 'big',
       favorite: true,
       imgUrl: 'assets/toys/21.png'
     },
@@ -245,9 +245,9 @@ export class ToysService {
       name: 'Шишка еловая золотая',
       count: 11,
       year: 1990,
-      shape: 'шишка',
+      shape: 'cone',
       color: 'yellow',
-      size: 'малый',
+      size: 'small',
       favorite: false,
       imgUrl: 'assets/toys/22.png'
     },
@@ -256,9 +256,9 @@ export class ToysService {
       name: 'Колокольчик старинный',
       count: 9,
       year: 1950,
-      shape: 'колокольчик',
+      shape: 'bell',
       color: 'yellow',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/23.png'
     },
@@ -267,9 +267,9 @@ export class ToysService {
       name: 'Снежинка изящная',
       count: 1,
       year: 1940,
-      shape: 'снежинка',
+      shape: 'snowflake',
       color: 'white',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/24.png'
     },
@@ -278,9 +278,9 @@ export class ToysService {
       name: 'Розовый шар с блёстками',
       count: 12,
       year: 2010,
-      shape: 'шар',
+      shape: 'ball',
       color: 'red',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/25.png'
     },
@@ -289,9 +289,9 @@ export class ToysService {
       name: 'Рубиново-золотой шар',
       count: 8,
       year: 1960,
-      shape: 'шар',
+      shape: 'ball',
       color: 'yellow',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/26.png'
     },
@@ -300,9 +300,9 @@ export class ToysService {
       name: 'Красный шар с узором',
       count: 4,
       year: 2010,
-      shape: 'шар',
+      shape: 'ball',
       color: 'red',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/27.png'
     },
@@ -311,9 +311,9 @@ export class ToysService {
       name: 'Бордовый шар с узором',
       count: 10,
       year: 2010,
-      shape: 'шар',
+      shape: 'ball',
       color: 'red',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/28.png'
     },
@@ -322,9 +322,9 @@ export class ToysService {
       name: 'Старинный шар с цветами',
       count: 5,
       year: 1950,
-      shape: 'шар',
+      shape: 'ball',
       color: 'yellow',
-      size: 'большой',
+      size: 'big',
       favorite: true,
       imgUrl: 'assets/toys/29.png'
     },
@@ -333,9 +333,9 @@ export class ToysService {
       name: 'Старинный шар с узором',
       count: 8,
       year: 1950,
-      shape: 'шар',
+      shape: 'ball',
       color: 'yellow',
-      size: 'большой',
+      size: 'big',
       favorite: true,
       imgUrl: 'assets/toys/30.png'
     },
@@ -344,9 +344,9 @@ export class ToysService {
       name: 'Красный шар с блёстками',
       count: 8,
       year: 2010,
-      shape: 'шар',
+      shape: 'ball',
       color: 'red',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/31.png'
     },
@@ -355,9 +355,9 @@ export class ToysService {
       name: 'Синий шар Вселенная',
       count: 11,
       year: 1970,
-      shape: 'шар',
+      shape: 'ball',
       color: 'blue',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/32.png'
     },
@@ -366,9 +366,9 @@ export class ToysService {
       name: 'Синий шар со снежинкой',
       count: 6,
       year: 2010,
-      shape: 'шар',
+      shape: 'ball',
       color: 'blue',
-      size: 'средний',
+      size: 'medium',
       favorite: false,
       imgUrl: 'assets/toys/33.png'
     },
@@ -377,9 +377,9 @@ export class ToysService {
       name: 'Зелёный  шар с узором',
       count: 8,
       year: 2010,
-      shape: 'шар',
+      shape: 'ball',
       color: 'green',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/34.png'
     },
@@ -388,9 +388,9 @@ export class ToysService {
       name: 'Фигурка Лис в шарфе',
       count: 8,
       year: 1950,
-      shape: 'фигурка',
+      shape: 'figure',
       color: 'yellow',
-      size: 'средний',
+      size: 'medium',
       favorite: true,
       imgUrl: 'assets/toys/35.png'
     },
@@ -399,9 +399,9 @@ export class ToysService {
       name: 'Сиреневый шар Метель',
       count: 1,
       year: 2000,
-      shape: 'шар',
+      shape: 'ball',
       color: 'blue',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/36.png'
     },
@@ -410,9 +410,9 @@ export class ToysService {
       name: 'Зелёный  шар Метель',
       count: 6,
       year: 2000,
-      shape: 'шар',
+      shape: 'ball',
       color: 'green',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/37.png'
     },
@@ -421,9 +421,9 @@ export class ToysService {
       name: 'Голубой  шар Метель',
       count: 6,
       year: 2000,
-      shape: 'шар',
+      shape: 'ball',
       color: 'blue',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/38.png'
     },
@@ -432,9 +432,9 @@ export class ToysService {
       name: 'Красная снежинка',
       count: 6,
       year: 1990,
-      shape: 'снежинка',
+      shape: 'snowflake',
       color: 'red',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/39.png'
     },
@@ -443,9 +443,9 @@ export class ToysService {
       name: 'Снежинка золотая',
       count: 12,
       year: 2020,
-      shape: 'снежинка',
+      shape: 'snowflake',
       color: 'yellow',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/40.png'
     },
@@ -454,9 +454,9 @@ export class ToysService {
       name: 'Снежинка арктическая',
       count: 11,
       year: 2020,
-      shape: 'снежинка',
+      shape: 'snowflake',
       color: 'white',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/41.png'
     },
@@ -465,9 +465,9 @@ export class ToysService {
       name: 'Зелёный шар',
       count: 10,
       year: 1980,
-      shape: 'шар',
+      shape: 'ball',
       color: 'green',
-      size: 'средний',
+      size: 'medium',
       favorite: false,
       imgUrl: 'assets/toys/42.png'
     },
@@ -476,9 +476,9 @@ export class ToysService {
       name: 'Снежинка двухцветная',
       count: 6,
       year: 1960,
-      shape: 'снежинка',
+      shape: 'snowflake',
       color: 'red',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/43.png'
     },
@@ -487,9 +487,9 @@ export class ToysService {
       name: 'Фигурка Ангела',
       count: 11,
       year: 1940,
-      shape: 'фигурка',
+      shape: 'figure',
       color: 'red',
-      size: 'средний',
+      size: 'medium',
       favorite: true,
       imgUrl: 'assets/toys/44.png'
     },
@@ -498,9 +498,9 @@ export class ToysService {
       name: 'Снежинка новогодняя',
       count: 1,
       year: 1980,
-      shape: 'снежинка',
+      shape: 'snowflake',
       color: 'white',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/45.png'
     },
@@ -509,9 +509,9 @@ export class ToysService {
       name: 'Фигурка Мухомор',
       count: 10,
       year: 1950,
-      shape: 'фигурка',
+      shape: 'figure',
       color: 'red',
-      size: 'малый',
+      size: 'small',
       favorite: false,
       imgUrl: 'assets/toys/46.png'
     },
@@ -520,9 +520,9 @@ export class ToysService {
       name: 'Фигурка Колодец',
       count: 6,
       year: 1950,
-      shape: 'фигурка',
+      shape: 'figure',
       color: 'red',
-      size: 'малый',
+      size: 'small',
       favorite: false,
       imgUrl: 'assets/toys/47.png'
     },
@@ -531,9 +531,9 @@ export class ToysService {
       name: 'Желтый шар с бантом',
       count: 6,
       year: 1960,
-      shape: 'шар',
+      shape: 'ball',
       color: 'yellow',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/48.png'
     },
@@ -542,9 +542,9 @@ export class ToysService {
       name: 'Снежинка с бирюзой',
       count: 4,
       year: 1980,
-      shape: 'снежинка',
+      shape: 'snowflake',
       color: 'yellow',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/49.png'
     },
@@ -553,9 +553,9 @@ export class ToysService {
       name: 'Колокольчик большой',
       count: 3,
       year: 2020,
-      shape: 'колокольчик',
+      shape: 'bell',
       color: 'red',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/50.png'
     },
@@ -564,9 +564,9 @@ export class ToysService {
       name: 'Шишка с изморозью',
       count: 12,
       year: 1970,
-      shape: 'шишка',
+      shape: 'cone',
       color: 'red',
-      size: 'малый',
+      size: 'small',
       favorite: false,
       imgUrl: 'assets/toys/51.png'
     },
@@ -575,9 +575,9 @@ export class ToysService {
       name: 'Красный шар с надписью',
       count: 12,
       year: 1990,
-      shape: 'шар',
+      shape: 'ball',
       color: 'red',
-      size: 'большой',
+      size: 'big',
       favorite: true,
       imgUrl: 'assets/toys/52.png'
     },
@@ -586,9 +586,9 @@ export class ToysService {
       name: 'Снежинка серебристая',
       count: 6,
       year: 2020,
-      shape: 'снежинка',
+      shape: 'snowflake',
       color: 'white',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/53.png'
     },
@@ -597,9 +597,9 @@ export class ToysService {
       name: 'Зелёный шар с рисунком',
       count: 6,
       year: 2010,
-      shape: 'шар',
+      shape: 'ball',
       color: 'green',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/54.png'
     },
@@ -608,9 +608,9 @@ export class ToysService {
       name: 'Пряничный домик',
       count: 1,
       year: 1940,
-      shape: 'фигурка',
+      shape: 'figure',
       color: 'yellow',
-      size: 'большой',
+      size: 'big',
       favorite: false,
       imgUrl: 'assets/toys/55.png'
     },
@@ -619,9 +619,9 @@ export class ToysService {
       name: 'Пряничный теремок',
       count: 1,
       year: 1940,
-      shape: 'фигурка',
+      shape: 'figure',
       color: 'yellow',
-      size: 'малый',
+      size: 'small',
       favorite: false,
       imgUrl: 'assets/toys/56.png'
     },
@@ -630,9 +630,9 @@ export class ToysService {
       name: 'Пряничная избушка',
       count: 1,
       year: 1940,
-      shape: 'фигурка',
+      shape: 'figure',
       color: 'yellow',
-      size: 'средний',
+      size: 'medium',
       favorite: false,
       imgUrl: 'assets/toys/57.png'
     },
@@ -641,9 +641,9 @@ export class ToysService {
       name: 'Фигурка белого медведя',
       count: 2,
       year: 1980,
-      shape: 'фигурка',
+      shape: 'figure',
       color: 'white',
-      size: 'средний',
+      size: 'medium',
       favorite: false,
       imgUrl: 'assets/toys/58.png'
     },
@@ -652,9 +652,9 @@ export class ToysService {
       name: 'Желтый шар с надписью',
       count: 10,
       year: 1990,
-      shape: 'шар',
+      shape: 'ball',
       color: 'yellow',
-      size: 'средний',
+      size: 'medium',
       favorite: false,
       imgUrl: 'assets/toys/59.png'
     },
@@ -663,9 +663,9 @@ export class ToysService {
       name: 'Фигурка Голубь',
       count: 12,
       year: 1940,
-      shape: 'фигурка',
+      shape: 'figure',
       color: 'white',
-      size: 'средний',
+      size: 'medium',
       favorite: true,
       imgUrl: 'assets/toys/60.png'
     }
@@ -705,12 +705,21 @@ export class ToysService {
     return this.toysList
   }
 
-  public filterToysList(data: IToysFilterData, color: ToyColor): void {
-    const includedColors = Object.keys(data.color).filter( item=> data.color[item] );
-    console.log(includedColors)
+  public filterToysList(): void {
+    const includedColors = Object.keys(this.toysFilterData.color).filter( item=> this.toysFilterData.color[item] );
+    const includedShapes = Object.keys(this.toysFilterData.shape).filter( item=> this.toysFilterData.shape[item] );
+    const includedSize = Object.keys(this.toysFilterData.size).filter( item=> this.toysFilterData.size[item] );
     let arr = this.initialToysList.slice();
     this.initialToysList.forEach(toy => {
-      arr = arr.filter(toy => includedColors.some( color => toy.color === color))
+      arr = arr.filter(toy => {
+        return includedColors.some( color => toy.color === color)
+      })
+      arr = arr.filter(toy => {
+        return includedShapes.some( shape => toy.shape === shape)
+      })
+      arr = arr.filter(toy => {
+        return includedSize.some( size => toy.size === size)
+      })
     })
     this.toysList = arr;
     console.log(this.toysList)
@@ -720,19 +729,29 @@ export class ToysService {
 
   public changeColor( color: ToyColor ) {
     this.toysFilterData.color[color] = !this.toysFilterData.color[color];
-    // console.log(this.toysFilterData.color)
-    this.filterToysList(this.toysFilterData,color)
-    console.log(this.toysList)
+    this.filterToysList()
   }
 
   public changeShape( shape: ToyShape ) {
     this.toysFilterData.shape[shape] = !this.toysFilterData.shape[shape];
-    console.log(this.toysFilterData)
+    this.filterToysList()
   }
 
   public changeSize( size: ToySize ) {
     this.toysFilterData.size[size] = !this.toysFilterData.size[size];
-    console.log(this.toysFilterData)
+    this.filterToysList()
+  }
+
+  public isColorSelected( color: string ): boolean {
+    return this.toysFilterData.color[color]
+  }
+
+  public isShapeSelected( shape: string ): boolean {
+    return this.toysFilterData.shape[shape]
+  }
+
+  public isSizeSelected( size: string ): boolean {
+    return this.toysFilterData.size[size]
   }
 
 }

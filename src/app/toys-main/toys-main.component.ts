@@ -12,8 +12,6 @@ export class ToysMainComponent implements OnInit {
 
   public inputValue = 0;
   public toysList: Card[] = [];
-  public toyShapeEnum = ToyShape;
-  public toySizeEnum = ToySize;
 
 
   constructor(
@@ -24,15 +22,28 @@ export class ToysMainComponent implements OnInit {
     this.toysList = this.toysService.getToysList();
   }
 
-  public changeColor(color: ToyColor) {
+  public changeColor( color: ToyColor ) {
     this.toysService.changeColor(color);
   }
 
-  public changeShape(shape: ToyShape) {
+  public changeShape( shape: ToyShape ) {
     this.toysService.changeShape(shape);
   }
 
-  public changeSize(size: ToySize) {
+  public changeSize( size: ToySize ) {
     this.toysService.changeSize(size);
   }
+
+  public isColorSelected( color: string): boolean {
+    return this.toysService.isColorSelected( color );
+  }
+
+  public isSizeSelected( size: string): boolean {
+    return this.toysService.isSizeSelected( size );
+  }
+
+  public isShapeSelected( shape: string): boolean {
+    return this.toysService.isShapeSelected( shape );
+  }
+
 }
