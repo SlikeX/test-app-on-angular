@@ -13,7 +13,7 @@
   transition: ease all 0.3s;
 }
 .rs-link {
-  background: url("/assets/svg/rss.svg");
+  background: url(/src/assets/svg/rss.svg);
   width: 160px;
   height: 60px;
   background-size: contain;

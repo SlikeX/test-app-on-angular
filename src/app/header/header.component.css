@@ -20,7 +20,7 @@
   align-items: center;
 }
 .logo {
-  background: url("/assets/svg/tree.svg");
+  background: url("/src/assets/svg/tree.svg");
   width: 50px;
   height: 60px;
   background-size: contain;
@@ -50,7 +50,7 @@
   color: #fff;
   font-size: 18px;
   background-color: rgba(31, 112, 127, 0.3);
-  background-image: url(/assets/svg/search.svg);
+  background-image: url(/src/assets/svg/search.svg);
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: 330px center;
@@ -59,7 +59,7 @@
 .counter {
   width: 48px;
   height: 60px;
-  background-image: url(/assets/svg/ball-2.svg);
+  background-image: url(/src/assets/svg/ball-2.svg);
   background-size: 48px 60px;
   background-position: left -8px;
   background-repeat: no-repeat;

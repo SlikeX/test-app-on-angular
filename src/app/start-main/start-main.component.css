@@ -1,7 +1,7 @@
 .main__content {
   width: 100%;
   height: calc(100vh - 140px);
-  background: url(/assets/bg.jpg);
+  background: url(/src/assets/bg.jpg);
 }
 .content__container {
   display: flex;

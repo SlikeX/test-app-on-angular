@@ -1,7 +1,7 @@
 .main__content {
   width: 100%;
   height: calc(100% - 70px);
-  background: url(/assets/bg.jpg);
+  background: url(/src/assets/bg.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -31,19 +31,19 @@
 }
 
 .shape-type-1 {
-  background: url(/assets/svg/ball.svg);
+  background: url(/src/assets/svg/ball.svg);
 }
 .shape-type-2 {
-  background: url(/assets/svg/bell.svg);
+  background: url(/src/assets/svg/bell.svg);
 }
 .shape-type-3 {
-  background: url(/assets/svg/cone.svg);
+  background: url(/src/assets/svg/cone.svg);
 }
 .shape-type-4 {
-  background: url(/assets/svg/snowflake.svg);
+  background: url(/src/assets/svg/snowflake.svg);
 }
 .shape-type-5 {
-  background: url(/assets/svg/toy.svg);
+  background: url(/src/assets/svg/toy.svg);
 }
 .shape {
   width: 40px;
@@ -104,7 +104,7 @@
   margin: 5px 5px;
   border: 0;
   outline: 0;
-  background-image: url(/assets/svg/ball.svg);
+  background-image: url(/src/assets/svg/ball.svg);
   background-color: transparent;
   background-size: contain;
   background-repeat: no-repeat;
@@ -225,7 +225,7 @@
   margin: 10px 0;
   margin-bottom: 125px;
   background-color: rgba(31, 112, 127, 0.3);
-  background-image: url(/assets/svg/arrow-down.svg);
+  background-image: url(/src/assets/svg/arrow-down.svg);
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: 340px center;
