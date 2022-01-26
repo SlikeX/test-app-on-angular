@@ -671,30 +671,31 @@ export class ToysService {
     }
   ];
   public toysList: Card[] = this.initialToysList.slice();
+  public searchValue: string ='';
 
   private toysFilterData: IToysFilterData = {
     amount: 0,
     purchaseYear: 1990,
     shape: {
-      ball: false,
-      figure: false,
-      bell: false,
-      cone: false,
-      snowflake: false
+      ball: true,
+      figure: true,
+      bell: true,
+      cone: true,
+      snowflake: true
     },
     color: {
-      white: false,
-      red: false,
-      blue: false,
-      green: false,
-      yellow: false
+      white: true,
+      red: true,
+      blue: true,
+      green: true,
+      yellow: true
     },
     size: {
-      big: false,
-      medium: false,
-      small: false
+      big: true,
+      medium: true,
+      small: true
     },
-    onlyFavourites: false
+    onlyFavourites: true
   };
 
   public filterToysList$ = new Subject<void>();
@@ -705,7 +706,7 @@ export class ToysService {
     return this.toysList
   }
 
-  public filterToysList(): void {
+  public filterToysList( searchValue?: string ): void {
     const includedColors = Object.keys(this.toysFilterData.color).filter( item=> this.toysFilterData.color[item] );
     const includedShapes = Object.keys(this.toysFilterData.shape).filter( item=> this.toysFilterData.shape[item] );
     const includedSize = Object.keys(this.toysFilterData.size).filter( item=> this.toysFilterData.size[item] );
@@ -721,8 +722,8 @@ export class ToysService {
         return includedSize.some( size => toy.size === size)
       })
     })
+    console.log(searchValue)
     this.toysList = arr;
-    console.log(this.toysList)
     this.filterToysList$.next()
   }
 
@@ -752,6 +753,10 @@ export class ToysService {
 
   public isSizeSelected( size: string ): boolean {
     return this.toysFilterData.size[size]
+  }
+
+  public searchToys( searchValue: string ) {
+    this.filterToysList( searchValue )
   }
 
 }

@@ -5,10 +5,15 @@
         <li class="nav__list-item">
           <a routerLink="" href="#" class="logo"></a>
           <a routerLink="/toys" href="#" class="link-to-main">ИГРУШКИ</a>
-          <a href="#" class="link-to-tree">ЁЛКА</a>
+          <a routerLink="/tree" href="#" class="link-to-tree">ЁЛКА</a>
         </li>
         <li class="nav__list-item">
-          <input type="search" class="search" />
+          <input
+            type="text"
+            class="search"
+            [(ngModel)]="searchValue"
+            (input)="searchToys(searchValue)"
+          />
           <div class="counter">
             <span>0</span>
           </div>

@@ -6,10 +6,12 @@ import { FooterComponent } from './footer/footer.component';
 import { StartMainComponent } from './start-main/start-main.component';
 import { ToysMainComponent } from './toys-main/toys-main.component';
 import { CardComponent } from './card/card.component'
+import { TreeMainComponent } from './tree-main/tree-main.component';
 
 const routes: Routes = [
   {path: '', component: StartMainComponent},
-  {path: 'toys', component: ToysMainComponent}
+  {path: 'toys', component: ToysMainComponent},
+  {path: 'tree', component: TreeMainComponent}
 ];
 
 @NgModule({
