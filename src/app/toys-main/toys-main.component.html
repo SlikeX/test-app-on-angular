@@ -5,28 +5,77 @@
         <div class="controll__title">фильтры по значению</div>
         <div class="controll__shape">
           Форма:
-          <div class="shape-type-1 shape"></div>
-          <div class="shape-type-2 shape"></div>
-          <div class="shape-type-3 shape"></div>
-          <div class="shape-type-4 shape"></div>
-          <div class="shape-type-5 shape"></div>
+          <div
+            (click)="changeShape('ball')"
+            class="shape-type-1 shape"
+            [ngClass]="{ 'shape-active': isShapeSelected('ball') }"
+          ></div>
+          <div
+            (click)="changeShape('bell')"
+            class="shape-type-2 shape"
+            [ngClass]="{ 'shape-active': isShapeSelected('bell') }"
+          ></div>
+          <div
+            (click)="changeShape('cone')"
+            class="shape-type-3 shape"
+            [ngClass]="{ 'shape-active': isShapeSelected('cone') }"
+          ></div>
+          <div
+            (click)="changeShape('snowflake')"
+            class="shape-type-4 shape"
+            [ngClass]="{ 'shape-active': isShapeSelected('snowflake') }"
+          ></div>
+          <div
+            (click)="changeShape('figure')"
+            class="shape-type-5 shape"
+            [ngClass]="{ 'shape-active': isShapeSelected('figure') }"
+          ></div>
         </div>
         <div class="controll__color">
           Цвет:
           <div
-            (click)="changeColor(toyColorEnum.White)"
+            (click)="changeColor('white')"
             class="color-type-1 color"
+            [ngClass]="{ 'color-active': isColorSelected('white') }"
           ></div>
-          <div class="color-type-2 color"></div>
-          <div class="color-type-3 color"></div>
-          <div class="color-type-4 color"></div>
-          <div class="color-type-5 color"></div>
+          <div
+            (click)="changeColor('yellow')"
+            class="color-type-2 color"
+            [ngClass]="{ 'color-active': isColorSelected('yellow') }"
+          ></div>
+          <div
+            (click)="changeColor('red')"
+            class="color-type-3 color"
+            [ngClass]="{ 'color-active': isColorSelected('red') }"
+          ></div>
+          <div
+            (click)="changeColor('blue')"
+            class="color-type-4 color"
+            [ngClass]="{ 'color-active': isColorSelected('blue') }"
+          ></div>
+          <div
+            (click)="changeColor('green')"
+            class="color-type-5 color"
+            [ngClass]="{ 'color-active': isColorSelected('green') }"
+          ></div>
         </div>
         <div class="controll__size">
           Размер:
-          <div class="size-type-1 size"></div>
-          <div class="size-type-2 size"></div>
-          <div class="size-type-3 size"></div>
+          <div
+            (click)="changeSize('big')"
+            class="size-type-1 size"
+            [ngClass]="{ 'shape-active': isSizeSelected('big') }"
+          ></div>
+          <div
+            (click)="changeSize('medium')"
+            class="size-type-2 size"
+            [ngClass]="{ 'shape-active': isSizeSelected('medium') }"
+          ></div>
+          <div
+            (click)="changeSize('small')"
+            class="size-type-3 size"
+            [ngClass]="{ 'shape-active': isSizeSelected('small') }"
+          ></div>
         </div>
         <div class="controll__favourite">
           Только любимые:
@@ -88,5 +137,5 @@
       </div>
     </div>
   </div>
-  <ng-content></ng-content>
+  <app-card></app-card>
 </main>

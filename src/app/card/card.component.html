@@ -1,31 +1,31 @@
 <div class="card-container">
-  <div class="card">
-    <h2 class="card__title">Большой шар с рисунком</h2>
-    <img class="card__pic" src="assets/toys/1.png" alt="toy" />
+  <div class="card" *ngFor="let toy of toysList">
+    <h2 class="card__title">{{ toy.name }}</h2>
+    <img class="card__pic" src="{{ toy.imgUrl }}" alt="toy" />
     <div class="card__desc">
       <p class="card__desc__count">
         Количество:
-        <span>2</span>
+        <span>{{ toy.count }}</span>
       </p>
       <p class="card__desc__year">
         Год покупки:
-        <span>1960</span>
+        <span>{{ toy.year }}</span>
       </p>
       <p class="card__desc__shape">
         Форма:
-        <span>шар</span>
+        <span>{{ toy.shape }}</span>
       </p>
       <p class="card__desc__color">
         Цвет:
-        <span>желтый</span>
+        <span>{{ toy.color }}</span>
       </p>
       <p class="card__desc__size">
         Размер:
-        <span>большой</span>
+        <span>{{ toy.size }}</span>
       </p>
       <p class="card__desc__favourite">
         Любимая:
-        <span>нет</span>
+        <span>{{ toy.favorite }}</span>
       </p>
     </div>
     <div class="card__stripe"></div>

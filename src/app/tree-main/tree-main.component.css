@@ -1,0 +1,12 @@
+.main__content {
+  width: 100%;
+  height: calc(100% - 70px);
+  background: url(/assets/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1600px;
+  width: 100%;
+}

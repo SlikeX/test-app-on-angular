@@ -1,7 +1,9 @@
 .main__content {
   width: 100%;
-  height: calc(100vh - 70px);
+  height: calc(100% - 70px);
   background: url(/assets/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 .container {
   margin: 0 auto;
@@ -35,7 +37,7 @@
   background: url(/assets/svg/bell.svg);
 }
 .shape-type-3 {
-  background: url(/assets/svg/cone.svg);
+  background: url(../../assets/svg/cone.svg);
 }
 .shape-type-4 {
   background: url(/assets/svg/snowflake.svg);
